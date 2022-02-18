@@ -6,7 +6,7 @@
     background-color: #fff;
 }
 
-.bg-secontady-color {
+.bg-secondary-color {
     background-color: #ece8ea;
 }
 
@@ -210,5 +210,32 @@
     }
     #featured-images .banner-content {
         opacity: 0;
+    }
+}
+
+/* Info */
+
+#info-content {
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+#info-nambers {
+    margin: 1.5em 0;
+}
+
+#info-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#info-numbers h3 {
+    font-size: 3em;
+}
+
+@media(min-width: 768px) {
+    #info-content {
+        padding: 3.5em;
     }
 }
